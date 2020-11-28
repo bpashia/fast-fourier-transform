@@ -1,0 +1,34 @@
+{
+  "npmScope": "phys301",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "fast-fourier-transform": {
+      "tags": []
+    },
+    "fast-fourier-transform-e2e": {
+      "tags": [],
+      "implicitDependencies": ["fast-fourier-transform"]
+    }
+  }
+}
