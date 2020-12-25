@@ -122,10 +122,10 @@ console.log({path})
 return(
   <Router basename={'fast-fourier-transform'}>
   <Switch>
-    <Route path = {`/1`} render ={()=><StoryElement title ='Future Friendship' story ={storyFive}/>}/>
+    <Route path = {`/1`} render ={()=><StoryElement title ='Futuristic Friendship' story ={storyFive}/>}/>
     <Route path = {`/2`} render ={()=><StoryElement title ='Equation Elation' story ={storyFour}/>}/>
     <Route path = {`/3`} render ={()=><StoryElement title ='Stage Fright' story ={storyTwo}/>}/>
-    <Route path = {`/4`} render ={()=><StoryElement title ='Airport in Aldosia' story ={storyOne}/>}/>
+    <Route path = {`/4`} render ={()=><StoryElement title ='Airport in Aldovia' story ={storyOne}/>}/>
     <Route path = {`/5`} render ={()=><StoryElement title ='Quartz, Parchment, Shears' story ={storySix}/>}/>
     <Route path = {`/6`} render ={()=><StoryElement title ='Swede, Swede Revenge' story ={storyThree}/>}/>
     <Route path = {`/`} render ={()=><Grid item xs={12}>
