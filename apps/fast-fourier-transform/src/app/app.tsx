@@ -120,7 +120,7 @@ const path = ''
 console.log({path})
 
 return(
-  <Router>
+  <Router basename={'fast-fourier-transform'}>
   <Switch>
     <Route path = {`/1`} render ={()=><StoryElement title ='Future Friendship' story ={storyFive}/>}/>
     <Route path = {`/2`} render ={()=><StoryElement title ='Equation Elation' story ={storyFour}/>}/>
