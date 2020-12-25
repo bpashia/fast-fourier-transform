@@ -23,7 +23,8 @@
     "update": "nx migrate latest",
     "workspace-schematic": "nx workspace-schematic",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "deploy": "gh-pages -d dist/apps/fast-fourier-transform"
   },
   "private": true,
   "dependencies": {
@@ -31,12 +32,14 @@
     "@material-ui/icons": "^4.11.2",
     "@types/complex.js": "^2.0.1",
     "@types/mathjs": "^6.0.8",
+    "@types/react-router-dom": "^5.1.6",
     "complex.js": "^2.0.11",
     "document-register-element": "1.13.1",
     "material-ui": "^0.20.2",
     "mathjs": "^8.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-router-dom": "^5.2.0",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
